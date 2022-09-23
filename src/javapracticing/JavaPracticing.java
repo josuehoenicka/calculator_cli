@@ -30,6 +30,15 @@ public class JavaPracticing {
         System.out.println("2 + 3 = " + plus(2,3));
         System.out.println("2 - 3 = " + minus(2, 3));
     
+        /* Instaces */
+        Persona somebody = new Persona();
+        somebody.changeName("Josue");
+        somebody.happy();
+        somebody.speak();
+        somebody.changeName("Gabriel");
+        somebody.sad();
+        somebody.speak();
+        
     }
     
     /* method or function */
