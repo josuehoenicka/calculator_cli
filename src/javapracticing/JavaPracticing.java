@@ -21,9 +21,38 @@ public class JavaPracticing {
         }
         
         /* for */
-        for (int i = 1; i < 3; i++) {
-            System.out.println("i es " + i);
+        for (int i = 1; i < 6; i++) {
+            System.out.println("i es igual a " + i);
         }
+        
+        /* references */
+        cat();
+        System.out.println("2 + 3 = " + plus(2,3));
+        System.out.println("2 - 3 = " + minus(2, 3));
     
     }
+    
+    /* method or function */
+    public static void cat(){
+       String garfield = "Garfield";
+       String chiara = "Chiara";
+       String felix = "Felix";
+       String speak = " say: ";
+       String cat = "Miau";
+       String dog = "Guau Guau";
+       
+       System.out.println(garfield + speak + cat);
+       System.out.println(chiara + speak + cat);
+       System.out.println(felix + speak + dog);
+         
+    }
+    
+    public static int plus(int numOne, int numTwo){
+        return numOne + numTwo;
+    }
+    
+    public static int minus(int numOne, int numTwo){
+        return numOne - numTwo;
+    }
+    
 }
