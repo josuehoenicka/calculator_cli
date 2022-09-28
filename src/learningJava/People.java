@@ -1,6 +1,6 @@
-package javapracticing;
+package learningJava;
 
-public class Persona {
+public class People {
     String name;
     boolean happy = true;
     public void changeName(String myName){

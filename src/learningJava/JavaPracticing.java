@@ -1,13 +1,16 @@
-package javapracticing;
+package learningJava;
 
 public class JavaPracticing {
 
     public static void main(String[] args) {
+
         /* variables*/
+        
         int numOne = 1;
         int numTwo = 2;
         
         /* alternative conditional */
+        
         if (numOne > numTwo) {
             System.out.println(numOne + " es mayor a " + numTwo);
         } else {
@@ -15,23 +18,27 @@ public class JavaPracticing {
         }
         
         /* while */
+        
         while(numOne < numTwo) {
         System.out.println(numOne + " es menor a " + numTwo);
         numOne++;
         }
         
         /* for */
+        
         for (int i = 1; i < 6; i++) {
             System.out.println("i es igual a " + i);
         }
         
         /* references */
+        
         cat();
         System.out.println("2 + 3 = " + plus(2,3));
         System.out.println("2 - 3 = " + minus(2, 3));
     
         /* Instaces */
-        Persona somebody = new Persona();
+        
+        People somebody = new People();
         somebody.changeName("Josue");
         somebody.happy();
         somebody.speak();
@@ -41,7 +48,8 @@ public class JavaPracticing {
         
     }
     
-    /* method or function */
+    /* methods */
+    
     public static void cat(){
        String garfield = "Garfield";
        String chiara = "Chiara";
