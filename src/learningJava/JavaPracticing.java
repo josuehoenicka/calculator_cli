@@ -39,13 +39,15 @@ public class JavaPracticing {
         /* Instaces */
         
         People somebody = new People();
+        System.out.println("\n");
         somebody.changeName("Josue");
         somebody.happy();
         somebody.speak();
+        System.out.println("\n");
         somebody.changeName("Gabriel");
         somebody.sad();
         somebody.speak();
-        
+      
     }
     
     /* methods */
